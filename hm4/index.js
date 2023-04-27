@@ -51,7 +51,6 @@ var salaries = {
     andrey: 664,
     alexandra: 199
 }
-salaries.andrey2 = 500;
 var chislo = 0;
 for (var key in salaries) {
     chislo++;
@@ -59,10 +58,8 @@ for (var key in salaries) {
 var sum = 0;
 for (var key in salaries) {
     sum += salaries[key];
-    zp = sum / chislo;
-
 }
-delete salaries.andrey;
+var zp = sum / chislo;
 console.log(zp);
 
 //Task6
