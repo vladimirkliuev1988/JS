@@ -8,21 +8,19 @@ console.log(animals[animals.length - 1]);
 
 //Task 3 
 const numbers = [5, 43, 63, 23, 90];
-for (keys in numbers) {
-    if (keys<numbers.length) {
-        i++
-        delete numbers[keys];
-    } else {
-        continue
-    }
+for (var i = 0; i = numbers.length; i++) {
+numbers.pop();
 }
 console.log(numbers);
 /*
-for (var i = 0; i < numbers.length; i++) {
-    delete numbers[i];
-  }
-    console.log(numbers);
-    */
+const numbers = [5, 43, 63, 23, 90];
+for (var i = 0; i = numbers.length; i++) {
+numbers.shift();
+}
+console.log(numbers);
+*/
+
+
 //Task 4
 const students = ['Polina', 'Dasha', 'Masha'];
 students.pop();
