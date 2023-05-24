@@ -1,0 +1,47 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.table {
+    width: 800px;
+    height: 135px;
+    border: 1px solid black;  
+      }
+
+      th {
+        border: 1px solid black;  
+
+    }
+    .color1 {
+        background-color: #087543;
+    }
+    .color2 {
+        background-color: #011788;
+    }
+    .color3 {
+        background-color: #386453;
+    }
+    .color4 {
+        background-color: #599999;
+    }
+    .color5 {
+        background-color: #453765;
+    }
+    .color6 {
+        background-color: #036584;
+    }
+    .color7 {
+        background-color: #164538;
+    }
+    .color8 {
+        background-color: #875214;
+    }
+    .color9 {
+        background-color: #045215;
+    }
+    .color10 {
+        background-color: #067554;
+    }
+    
+
