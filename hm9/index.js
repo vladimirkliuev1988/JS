@@ -1,7 +1,7 @@
 const colors = ['#087543','#011788','#386453','#599999','#453765','#036584','#164538','#875214','#045215','#067554'];
 const container = document.querySelector('.table')
 console.log(colors)
-const result = document.querySelectorAll('th')
+const result = document.querySelectorAll('td')
 console.log(result)
 container.onclick = function(event) {
     let target = event.target;
