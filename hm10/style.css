@@ -9,3 +9,12 @@ td {
     width: 100px;
     height: 100px;
 }
+.black {
+    background-color: black;
+}
+.alert1 {
+    display: none;
+}
+.alert2 {
+    display: none;
+}

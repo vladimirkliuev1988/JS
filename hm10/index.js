@@ -4,47 +4,55 @@ const elem2 = document.getElementById('elem2');
 button.onclick = function () {
     let val1 = elem1.value;
     let val2 = elem2.value;
-    if (isNaN(val1) || isNaN(val2)) {
-        let pLast = document.createElement('p');
-        pLast.innerHTML = 'Введите число';
-        elem1.after(pLast);
-    }
+    if (isNaN(val1)) {
+        document.getElementById("alert1").style.display = "block";
+        
+    } 
     else {
-        console.log(val1, val2);
+        document.getElementById("alert1").style.display = "none"
+    }
+    if (isNaN(val2)) {
+        document.getElementById("alert2").style.display = "block";
+    }
+else {
+    document.getElementById("alert2").style.display = "none"
+}
+
+           
         for (let i = 0; i < val1; i++) {
             let tr = document.createElement('tr');
             table.append(tr);
             if (i % 2) {
                 for (let i = 0; i < val2; i++) {
                     let td = document.createElement('td');
+                    td.className = "black";
                     tr.append(td);
                     if (i % 2 == 0) {
-                        td.style.backgroundColor = 'black';
+                        continue
                     } else {
-                        td.style.backgroundColor = 'antiquewhite';
+                        td.classList.toggle('black');
                     }
                 }
             } else {
                 for (let i = 0; i < val2; i++) {
                     let td = document.createElement('td');
+                    td.className = "black";
                     tr.append(td);
                     if (i % 2 != 0) {
-                        td.style.backgroundColor = 'black';
+                        continue
                     } else {
-                        td.style.backgroundColor = 'antiquewhite';
+                        td.classList.toggle('black');
                     }
                 }
             }
         }
-    }
-};
+    };
+    
+
 
 table.onclick = function (event) {
-    let target = event.target;
-    if (target.style.backgroundColor === 'black') {
-        target.style.backgroundColor = 'antiquewhite';
-    } else {
-        target.style.backgroundColor = 'black'
-    }
-
+    const items = document.querySelectorAll('td')
+for (let item of items) {
+    item.classList.toggle('black');
+}
 }
