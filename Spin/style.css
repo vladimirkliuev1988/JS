@@ -1,0 +1,278 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    background-image: url(./img/fon.jpg);
+}
+
+h1 {
+
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+
+    border-radius: 50%;
+
+    position: relative;
+    overflow: hidden;
+    transition: 5s;
+
+}
+
+.container div {
+    height: 50%;
+    width: 200px;
+    position: absolute;
+    clip-path: polygon(30% 0%, 50% 100%, 0 0);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    transform-origin: bottom;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    left: 200px;
+}
+
+.container .num1 {
+    background-color: black;
+    transform: rotate(0deg);
+}
+
+.container .num2 {
+    background-color: red;
+    transform: rotate(10deg);
+}
+
+.container .num3 {
+    background-color: black;
+    transform: rotate(20deg);
+}
+
+.container .num4 {
+    background-color: red;
+    transform: rotate(30deg);
+}
+
+.container .num5 {
+    background-color: black;
+    transform: rotate(40deg);
+}
+
+.container .num6 {
+    background-color: red;
+    transform: rotate(50deg);
+}
+
+.container .num7 {
+    background-color: black;
+    transform: rotate(60deg);
+}
+
+.container .num8 {
+    background-color: red;
+    transform: rotate(70deg);
+}
+
+.container .num9 {
+    background-color: black;
+    transform: rotate(80deg);
+}
+
+.container .num10 {
+    background-color: red;
+    transform: rotate(90deg);
+}
+
+.container .num11 {
+    background-color: black;
+    transform: rotate(100deg);
+}
+
+.container .num12 {
+    background-color: red;
+    transform: rotate(110deg);
+}
+
+.container .num13 {
+    background-color: black;
+    transform: rotate(120deg);
+}
+
+.container .num14 {
+    background-color: red;
+    transform: rotate(130deg);
+}
+
+.container .num15 {
+    background-color: black;
+    transform: rotate(140deg);
+}
+
+.container .num16 {
+    background-color: red;
+    transform: rotate(150deg);
+}
+
+.container .num17 {
+    background-color: black;
+    transform: rotate(160deg);
+}
+
+.container .num18 {
+    background-color: red;
+    transform: rotate(170deg);
+}
+
+.container .num19 {
+    background-color: black;
+    transform: rotate(180deg);
+}
+
+.container .num20 {
+    background-color: red;
+    transform: rotate(190deg);
+}
+
+.container .num21 {
+    background-color: black;
+    transform: rotate(200deg);
+}
+
+.container .num22 {
+    background-color: red;
+    transform: rotate(210deg);
+}
+
+.container .num23 {
+    background-color: black;
+    transform: rotate(220deg);
+}
+
+.container .num24 {
+    background-color: red;
+    transform: rotate(230deg);
+}
+
+.container .num25 {
+    background-color: black;
+    transform: rotate(240deg);
+}
+
+.container .num26 {
+    background-color: red;
+    transform: rotate(250deg);
+}
+
+.container .num27 {
+    background-color: black;
+    transform: rotate(260deg);
+}
+
+.container .num28 {
+    background-color: red;
+    transform: rotate(270deg);
+}
+
+.container .num29 {
+    background-color: black;
+    transform: rotate(280deg);
+}
+
+.container .num30 {
+    background-color: red;
+    transform: rotate(290deg);
+}
+
+.container .num31 {
+    background-color: black;
+    transform: rotate(300deg);
+}
+
+.container .num32 {
+    background-color: red;
+    transform: rotate(310deg);
+}
+
+.container .num33 {
+    background-color: black;
+    transform: rotate(320deg);
+}
+
+.container .num34 {
+    background-color: red;
+    transform: rotate(330deg);
+}
+
+.container .num35 {
+    background-color: black;
+    transform: rotate(340deg);
+}
+
+.container .num36 {
+    background-color: red;
+    transform: rotate(350deg);
+}
+
+.container .num0 {
+    background-color: green;
+    transform: rotate(360deg);
+}
+
+.elemone {
+    rotate: -15deg;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.elemtwo {
+    rotate: -15deg;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.arrow {
+    position: absolute;
+    top: 0%;
+    left: 49%;
+    transform: translateX(50%);
+    color: gold;
+}
+
+.arrow::before {
+    content: '\1F817';
+    font-size: 50px;
+}
+
+#spin {
+    position: absolute;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: gold;
+    border: 8px solid gold;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
